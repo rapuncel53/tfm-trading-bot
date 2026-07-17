@@ -1,31 +1,50 @@
-# Trading Bot with NLP and Time Series
+# Trading Bot with NLP and Time Series Analysis
 
-Trading bot that combines NLP (news sentiment analysis) with time series forecasting and model input security.
+## Overview
+
+This project is a trading bot that combines Natural Language Processing (NLP) with time series analysis to make automated trading decisions.
+
+### What it does
+
+1. **NLP Module** — Processes financial news, social media, and text data to extract sentiment and market-moving signals.
+2. **Time Series Module** — Analyzes historical price data and technical indicators to forecast short-term price movements.
+3. **Trading Engine** — Combines NLP signals with time series predictions to generate buy/sell/hold orders.
+4. **Input Security** — Validates and sanitizes model inputs to prevent adversarial attacks, data poisoning, and injection of malicious signals into the trading logic.
+
+### How it works
+
+The system follows a pipeline approach:
+
+```
+News/Social Data --> NLP Sentiment Analysis --> Signal Fusion --> Order Execution
+Historical Data   --> Time Series Forecast  --> (combined with NLP)
+```
+
+Security checks are applied at every stage where external or model-generated data enters the trading pipeline, ensuring that corrupted or adversarial inputs cannot compromise the system.
+
+## Project Structure
+
+```
+tfm-trading-bot/
+├── notebooks/    # Jupyter notebooks for experiments, tests, and analysis
+├── README.md
+└── .gitignore
+```
+
+The notebooks folder contains:
+- Data exploration and preprocessing
+- Model training and evaluation
+- Backtesting strategies
+- Security validation experiments
 
 ## Setup
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install jupyter pandas numpy scikit-learn torch transformers
 ```
 
-## Usage
+## License
 
-```bash
-python -m src.main
-```
-
-## Structure
-
-```
-tfm-trading-bot/
-├── src/          # source code
-│   ├── main.py   # entry point
-│   └── __init__.py
-├── tests/
-├── docs/
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+MIT
