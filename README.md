@@ -16,8 +16,9 @@ This project is a trading bot that combines Natural Language Processing (NLP) wi
 The system follows a pipeline approach:
 
 ```
-News/Social Data --> NLP Sentiment Analysis --> Signal Fusion --> Order Execution
-Historical Data   --> Time Series Forecast  --> (combined with NLP)
+News/Social Data --> NLP Sentiment Analysis --\
+                                               +--> Signal Fusion --> Order Execution
+Historical Data  --> Time Series Forecast   --/
 ```
 
 Security checks are applied at every stage where external or model-generated data enters the trading pipeline, ensuring that corrupted or adversarial inputs cannot compromise the system.
