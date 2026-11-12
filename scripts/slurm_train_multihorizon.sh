@@ -6,10 +6,12 @@
 
 #SBATCH --job-name=tfm_multihorizon
 #SBATCH --partition=merit
+#SBATCH --nodelist=merit-gpu2
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=04:00:00
+#SBATCH --chdir=/home/alumnes/julian.bascones/tfm
 #SBATCH --output=slurm_logs/%x_%j.out
 #SBATCH --error=slurm_logs/%x_%j.err
 
