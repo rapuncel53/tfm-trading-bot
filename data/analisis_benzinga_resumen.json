@@ -1,0 +1,96 @@
+{
+  "dataset_name": "Benzinga Pro Analyst Ratings & News Feed",
+  "total_records": 1407328,
+  "unique_tickers": 6204,
+  "global_date_start": "2009-02-14",
+  "global_date_end": "2020-06-11",
+  "mean_headline_length": 73.1,
+  "yearly_distribution": {
+    "2009": 11489,
+    "2010": 81319,
+    "2011": 131322,
+    "2012": 122655,
+    "2013": 121523,
+    "2014": 134859,
+    "2015": 135295,
+    "2016": 141892,
+    "2017": 124456,
+    "2018": 146924,
+    "2019": 150380,
+    "2020": 105214
+  },
+  "top_publishers": {
+    "Paul Quintaro": 228373,
+    "Lisa Levin": 186979,
+    "Benzinga Newsdesk": 150484,
+    "Charles Gross": 96732,
+    "Monica Gerson": 82380,
+    "Eddie Staley": 57254,
+    "Hal Lindon": 49047,
+    "ETF Professor": 28489,
+    "Juan Lopez": 28438,
+    "Benzinga Staff": 28114
+  },
+  "top_10_tickers": [
+    {
+      "ticker": "MRK",
+      "news_count": 3333,
+      "d0_news": "2009-07-27",
+      "d1_news": "2020-06-11"
+    },
+    {
+      "ticker": "MS",
+      "news_count": 3238,
+      "d0_news": "2010-01-20",
+      "d1_news": "2020-06-11"
+    },
+    {
+      "ticker": "NVDA",
+      "news_count": 3146,
+      "d0_news": "2011-03-03",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "MU",
+      "news_count": 3142,
+      "d0_news": "2011-04-20",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "QQQ",
+      "news_count": 3106,
+      "d0_news": "2011-03-16",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "NFLX",
+      "news_count": 3028,
+      "d0_news": "2016-08-23",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "M",
+      "news_count": 3025,
+      "d0_news": "2009-06-16",
+      "d1_news": "2020-06-11"
+    },
+    {
+      "ticker": "EBAY",
+      "news_count": 3018,
+      "d0_news": "2011-10-13",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "GILD",
+      "news_count": 2968,
+      "d0_news": "2009-09-11",
+      "d1_news": "2020-06-10"
+    },
+    {
+      "ticker": "VZ",
+      "news_count": 2966,
+      "d0_news": "2012-04-18",
+      "d1_news": "2020-06-11"
+    }
+  ]
+}

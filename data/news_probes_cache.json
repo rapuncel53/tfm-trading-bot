@@ -1,0 +1,3138 @@
+{
+ "ADBE": {
+  "has_news": true,
+  "n_sample": 4444,
+  "d0_news": "2009-12-17",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "AAPL": {
+  "has_news": true,
+  "n_sample": 8865,
+  "d0_news": "2022-06-03",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "ABT": {
+  "has_news": true,
+  "n_sample": 393,
+  "d0_news": "2023-07-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "A": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ABBV": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ACGL": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2022-05-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ACN": {
+  "has_news": true,
+  "n_sample": 527,
+  "d0_news": "2022-11-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ADI": {
+  "has_news": true,
+  "n_sample": 496,
+  "d0_news": "2022-08-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ADM": {
+  "has_news": true,
+  "n_sample": 428,
+  "d0_news": "2022-11-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ADP": {
+  "has_news": true,
+  "n_sample": 579,
+  "d0_news": "2016-02-03",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ADSK": {
+  "has_news": true,
+  "n_sample": 406,
+  "d0_news": "2022-02-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AEE": {
+  "has_news": true,
+  "n_sample": 495,
+  "d0_news": "2019-01-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AEP": {
+  "has_news": true,
+  "n_sample": 481,
+  "d0_news": "2022-02-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AES": {
+  "has_news": true,
+  "n_sample": 478,
+  "d0_news": "2019-07-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AFL": {
+  "has_news": true,
+  "n_sample": 405,
+  "d0_news": "2022-02-17",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "AIZ": {
+  "has_news": true,
+  "n_sample": 422,
+  "d0_news": "2020-11-03",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AIG": {
+  "has_news": true,
+  "n_sample": 456,
+  "d0_news": "2022-04-26",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AKAM": {
+  "has_news": true,
+  "n_sample": 417,
+  "d0_news": "2021-12-14",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "AJG": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AMD": {
+  "has_news": true,
+  "n_sample": 8959,
+  "d0_news": "2016-12-12",
+  "d1_news": "2024-01-09",
+  "is_local": true
+ },
+ "ALB": {
+  "has_news": true,
+  "n_sample": 475,
+  "d0_news": "2023-05-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ALGN": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2022-07-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ALL": {
+  "has_news": true,
+  "n_sample": 458,
+  "d0_news": "2021-05-27",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "ALLE": {
+  "has_news": true,
+  "n_sample": 420,
+  "d0_news": "2019-12-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AMZN": {
+  "has_news": true,
+  "n_sample": 4782,
+  "d0_news": "2023-03-09",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "AMCR": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "AMAT": {
+  "has_news": true,
+  "n_sample": 429,
+  "d0_news": "2023-05-18",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AME": {
+  "has_news": true,
+  "n_sample": 451,
+  "d0_news": "2018-12-06",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "AMGN": {
+  "has_news": true,
+  "n_sample": 496,
+  "d0_news": "2023-05-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AMP": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "AMT": {
+  "has_news": true,
+  "n_sample": 455,
+  "d0_news": "2022-10-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AON": {
+  "has_news": true,
+  "n_sample": 441,
+  "d0_news": "2021-01-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AOS": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "APA": {
+  "has_news": true,
+  "n_sample": 470,
+  "d0_news": "2022-05-23",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "ANET": {
+  "has_news": true,
+  "n_sample": 392,
+  "d0_news": "2023-08-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "APH": {
+  "has_news": true,
+  "n_sample": 424,
+  "d0_news": "2018-10-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "APO": {
+  "has_news": true,
+  "n_sample": 532,
+  "d0_news": "2022-02-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "APD": {
+  "has_news": true,
+  "n_sample": 466,
+  "d0_news": "2022-08-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "APTV": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2020-06-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ARE": {
+  "has_news": true,
+  "n_sample": 403,
+  "d0_news": "2022-01-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BA": {
+  "has_news": true,
+  "n_sample": 6065,
+  "d0_news": "2018-05-24",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "ARES": {
+  "has_news": true,
+  "n_sample": 421,
+  "d0_news": "2017-03-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AXP": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AVGO": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AVY": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2018-01-03",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "ATO": {
+  "has_news": true,
+  "n_sample": 439,
+  "d0_news": "2021-11-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AZO": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "AWK": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-12",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "BAC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "BAX": {
+  "has_news": true,
+  "n_sample": 470,
+  "d0_news": "2021-03-08",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "BBY": {
+  "has_news": true,
+  "n_sample": 441,
+  "d0_news": "2022-08-30",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "BDX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "BG": {
+  "has_news": true,
+  "n_sample": 478,
+  "d0_news": "2021-09-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BEN": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2020-10-27",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "BKNG": {
+  "has_news": true,
+  "n_sample": 453,
+  "d0_news": "2023-04-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BIIB": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2023-01-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BKR": {
+  "has_news": true,
+  "n_sample": 391,
+  "d0_news": "2023-06-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BLDR": {
+  "has_news": true,
+  "n_sample": 427,
+  "d0_news": "2022-09-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BLK": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "BMY": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "BNY": {
+  "has_news": true,
+  "n_sample": 59,
+  "d0_news": "2012-04-06",
+  "d1_news": "2023-06-05",
+  "is_local": false
+ },
+ "BRO": {
+  "has_news": true,
+  "n_sample": 384,
+  "d0_news": "2021-08-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BSX": {
+  "has_news": true,
+  "n_sample": 440,
+  "d0_news": "2023-01-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CAT": {
+  "has_news": true,
+  "n_sample": 5185,
+  "d0_news": "2009-11-04",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "BR": {
+  "has_news": true,
+  "n_sample": 430,
+  "d0_news": "2018-12-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BX": {
+  "has_news": true,
+  "n_sample": 529,
+  "d0_news": "2023-02-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "C": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2022-09-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "BXP": {
+  "has_news": true,
+  "n_sample": 403,
+  "d0_news": "2019-10-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CAH": {
+  "has_news": true,
+  "n_sample": 409,
+  "d0_news": "2023-01-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CASY": {
+  "has_news": true,
+  "n_sample": 390,
+  "d0_news": "2022-06-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CARR": {
+  "has_news": true,
+  "n_sample": 505,
+  "d0_news": "2021-05-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CBOE": {
+  "has_news": true,
+  "n_sample": 352,
+  "d0_news": "2022-06-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CCI": {
+  "has_news": true,
+  "n_sample": 445,
+  "d0_news": "2022-04-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CDNS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "CDW": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "CF": {
+  "has_news": true,
+  "n_sample": 252,
+  "d0_news": "2023-01-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CCL": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "CFG": {
+  "has_news": true,
+  "n_sample": 464,
+  "d0_news": "2022-02-25",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CHD": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-11-23",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "CHRW": {
+  "has_news": true,
+  "n_sample": 448,
+  "d0_news": "2020-07-29",
+  "d1_news": "2023-12-11",
+  "is_local": false
+ },
+ "CHTR": {
+  "has_news": true,
+  "n_sample": 495,
+  "d0_news": "2021-11-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CI": {
+  "has_news": true,
+  "n_sample": 451,
+  "d0_news": "2022-11-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CIEN": {
+  "has_news": true,
+  "n_sample": 404,
+  "d0_news": "2020-03-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CLX": {
+  "has_news": true,
+  "n_sample": 460,
+  "d0_news": "2022-04-25",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CMCSA": {
+  "has_news": true,
+  "n_sample": 479,
+  "d0_news": "2023-05-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CINF": {
+  "has_news": true,
+  "n_sample": 421,
+  "d0_news": "2022-02-01",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CL": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2022-08-30",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CME": {
+  "has_news": true,
+  "n_sample": 445,
+  "d0_news": "2022-04-26",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CMG": {
+  "has_news": true,
+  "n_sample": 430,
+  "d0_news": "2023-05-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CMI": {
+  "has_news": true,
+  "n_sample": 436,
+  "d0_news": "2021-10-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CMS": {
+  "has_news": true,
+  "n_sample": 426,
+  "d0_news": "2018-08-20",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "COST": {
+  "has_news": true,
+  "n_sample": 6781,
+  "d0_news": "2010-02-17",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "CNP": {
+  "has_news": true,
+  "n_sample": 446,
+  "d0_news": "2019-08-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CNC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "COHR": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2017-02-02",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "COF": {
+  "has_news": true,
+  "n_sample": 416,
+  "d0_news": "2022-05-12",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CRM": {
+  "has_news": true,
+  "n_sample": 6105,
+  "d0_news": "2009-12-14",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "COP": {
+  "has_news": true,
+  "n_sample": 452,
+  "d0_news": "2023-04-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "COO": {
+  "has_news": true,
+  "n_sample": 358,
+  "d0_news": "2018-08-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "COR": {
+  "has_news": true,
+  "n_sample": 449,
+  "d0_news": "2016-06-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CPT": {
+  "has_news": true,
+  "n_sample": 316,
+  "d0_news": "2018-10-25",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "CPRT": {
+  "has_news": true,
+  "n_sample": 348,
+  "d0_news": "2019-03-26",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CRL": {
+  "has_news": true,
+  "n_sample": 362,
+  "d0_news": "2018-06-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CRH": {
+  "has_news": true,
+  "n_sample": 313,
+  "d0_news": "2011-05-31",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CSCO": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "CRWD": {
+  "has_news": true,
+  "n_sample": 426,
+  "d0_news": "2023-08-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CSX": {
+  "has_news": true,
+  "n_sample": 523,
+  "d0_news": "2022-05-20",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CSGP": {
+  "has_news": true,
+  "n_sample": 375,
+  "d0_news": "2017-12-15",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "CTAS": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CTSH": {
+  "has_news": true,
+  "n_sample": 381,
+  "d0_news": "2020-07-24",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "CVNA": {
+  "has_news": true,
+  "n_sample": 480,
+  "d0_news": "2023-02-21",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "CTVA": {
+  "has_news": true,
+  "n_sample": 501,
+  "d0_news": "2021-05-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "CVS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "CVX": {
+  "has_news": true,
+  "n_sample": 459,
+  "d0_news": "2023-10-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DAL": {
+  "has_news": true,
+  "n_sample": 436,
+  "d0_news": "2023-07-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "D": {
+  "has_news": true,
+  "n_sample": 466,
+  "d0_news": "2022-06-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DD": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2021-08-03",
+  "d1_news": "2023-12-11",
+  "is_local": false
+ },
+ "DDOG": {
+  "has_news": true,
+  "n_sample": 455,
+  "d0_news": "2023-01-26",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DIS": {
+  "has_news": true,
+  "n_sample": 8711,
+  "d0_news": "2019-06-13",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "DE": {
+  "has_news": true,
+  "n_sample": 478,
+  "d0_news": "2023-03-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DELL": {
+  "has_news": true,
+  "n_sample": 477,
+  "d0_news": "2022-10-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DECK": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "DG": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "DGX": {
+  "has_news": true,
+  "n_sample": 419,
+  "d0_news": "2021-04-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DHI": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "DHR": {
+  "has_news": true,
+  "n_sample": 507,
+  "d0_news": "2022-05-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DLTR": {
+  "has_news": true,
+  "n_sample": 444,
+  "d0_news": "2022-09-06",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "DLR": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "DOC": {
+  "has_news": true,
+  "n_sample": 366,
+  "d0_news": "2013-07-05",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "DOV": {
+  "has_news": true,
+  "n_sample": 410,
+  "d0_news": "2019-04-17",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "DPZ": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2022-12-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DOW": {
+  "has_news": true,
+  "n_sample": 457,
+  "d0_news": "2022-07-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DRI": {
+  "has_news": true,
+  "n_sample": 441,
+  "d0_news": "2021-11-01",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "DUK": {
+  "has_news": true,
+  "n_sample": 434,
+  "d0_news": "2022-11-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DTE": {
+  "has_news": true,
+  "n_sample": 417,
+  "d0_news": "2019-04-10",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "DVA": {
+  "has_news": true,
+  "n_sample": 400,
+  "d0_news": "2022-10-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DVN": {
+  "has_news": true,
+  "n_sample": 425,
+  "d0_news": "2023-04-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "DXCM": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2023-06-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "EBAY": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2022-08-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ECL": {
+  "has_news": true,
+  "n_sample": 389,
+  "d0_news": "2020-04-28",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "ECHO": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ED": {
+  "has_news": true,
+  "n_sample": 468,
+  "d0_news": "2021-08-16",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "EL": {
+  "has_news": true,
+  "n_sample": 494,
+  "d0_news": "2022-06-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "EME": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "EFX": {
+  "has_news": true,
+  "n_sample": 474,
+  "d0_news": "2021-10-21",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "EIX": {
+  "has_news": true,
+  "n_sample": 490,
+  "d0_news": "2019-02-13",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "EMR": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2022-03-31",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "EQIX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "EQT": {
+  "has_news": true,
+  "n_sample": 523,
+  "d0_news": "2022-04-07",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "EOG": {
+  "has_news": true,
+  "n_sample": 429,
+  "d0_news": "2022-12-23",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ERIE": {
+  "has_news": true,
+  "n_sample": 280,
+  "d0_news": "2012-05-31",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "ES": {
+  "has_news": true,
+  "n_sample": 449,
+  "d0_news": "2018-11-20",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "ETN": {
+  "has_news": true,
+  "n_sample": 495,
+  "d0_news": "2022-03-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ESS": {
+  "has_news": true,
+  "n_sample": 360,
+  "d0_news": "2018-07-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ETR": {
+  "has_news": true,
+  "n_sample": 507,
+  "d0_news": "2019-05-31",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "EVRG": {
+  "has_news": true,
+  "n_sample": 376,
+  "d0_news": "2018-07-02",
+  "d1_news": "2023-12-11",
+  "is_local": false
+ },
+ "EXPE": {
+  "has_news": true,
+  "n_sample": 414,
+  "d0_news": "2022-03-01",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "EXC": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2019-10-31",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "EXPD": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "EW": {
+  "has_news": true,
+  "n_sample": 399,
+  "d0_news": "2022-01-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "EXR": {
+  "has_news": true,
+  "n_sample": 470,
+  "d0_news": "2020-04-21",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "F": {
+  "has_news": true,
+  "n_sample": 468,
+  "d0_news": "2023-10-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FANG": {
+  "has_news": true,
+  "n_sample": 449,
+  "d0_news": "2022-10-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FAST": {
+  "has_news": true,
+  "n_sample": 456,
+  "d0_news": "2020-10-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FE": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "FDS": {
+  "has_news": true,
+  "n_sample": 419,
+  "d0_news": "2018-12-18",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FCX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "FDX": {
+  "has_news": true,
+  "n_sample": 418,
+  "d0_news": "2023-05-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FFIV": {
+  "has_news": true,
+  "n_sample": 392,
+  "d0_news": "2019-10-23",
+  "d1_news": "2023-12-07",
+  "is_local": false
+ },
+ "FICO": {
+  "has_news": true,
+  "n_sample": 421,
+  "d0_news": "2019-11-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FIS": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2020-10-30",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "FISV": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "FITB": {
+  "has_news": true,
+  "n_sample": 430,
+  "d0_news": "2021-01-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FIX": {
+  "has_news": true,
+  "n_sample": 390,
+  "d0_news": "2015-12-10",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "FOXA": {
+  "has_news": true,
+  "n_sample": 487,
+  "d0_news": "2021-11-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FOX": {
+  "has_news": true,
+  "n_sample": 313,
+  "d0_news": "2019-06-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FLEX": {
+  "has_news": true,
+  "n_sample": 412,
+  "d0_news": "2019-02-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FSLR": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2023-03-03",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "FRT": {
+  "has_news": true,
+  "n_sample": 409,
+  "d0_news": "2020-11-06",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "FTV": {
+  "has_news": true,
+  "n_sample": 403,
+  "d0_news": "2018-02-12",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "FTNT": {
+  "has_news": true,
+  "n_sample": 429,
+  "d0_news": "2023-02-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GDDY": {
+  "has_news": true,
+  "n_sample": 391,
+  "d0_news": "2018-08-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GD": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "GE": {
+  "has_news": true,
+  "n_sample": 463,
+  "d0_news": "2023-05-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GILD": {
+  "has_news": true,
+  "n_sample": 440,
+  "d0_news": "2023-02-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GEN": {
+  "has_news": true,
+  "n_sample": 189,
+  "d0_news": "2011-05-10",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "GIS": {
+  "has_news": true,
+  "n_sample": 443,
+  "d0_news": "2023-02-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GL": {
+  "has_news": true,
+  "n_sample": 250,
+  "d0_news": "2019-08-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GLW": {
+  "has_news": true,
+  "n_sample": 414,
+  "d0_news": "2020-10-20",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GM": {
+  "has_news": true,
+  "n_sample": 109,
+  "d0_news": "2023-11-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GNRC": {
+  "has_news": true,
+  "n_sample": 486,
+  "d0_news": "2020-12-15",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "GOOG": {
+  "has_news": true,
+  "n_sample": 409,
+  "d0_news": "2023-10-23",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GOOGL": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "GPC": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-11-21",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "GPN": {
+  "has_news": true,
+  "n_sample": 468,
+  "d0_news": "2020-05-29",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "GRMN": {
+  "has_news": true,
+  "n_sample": 439,
+  "d0_news": "2020-10-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GS": {
+  "has_news": true,
+  "n_sample": 538,
+  "d0_news": "2023-08-25",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "GWW": {
+  "has_news": true,
+  "n_sample": 398,
+  "d0_news": "2022-02-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HAL": {
+  "has_news": true,
+  "n_sample": 476,
+  "d0_news": "2023-01-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HAS": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2022-01-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HCA": {
+  "has_news": true,
+  "n_sample": 398,
+  "d0_news": "2022-06-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HBAN": {
+  "has_news": true,
+  "n_sample": 430,
+  "d0_news": "2020-10-22",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "HPE": {
+  "has_news": true,
+  "n_sample": 446,
+  "d0_news": "2022-03-31",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HIG": {
+  "has_news": true,
+  "n_sample": 434,
+  "d0_news": "2020-11-12",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "HON": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "HLT": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "HD": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "HII": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "HPQ": {
+  "has_news": true,
+  "n_sample": 464,
+  "d0_news": "2022-09-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HRL": {
+  "has_news": true,
+  "n_sample": 471,
+  "d0_news": "2021-11-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HSIC": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2022-03-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HST": {
+  "has_news": true,
+  "n_sample": 373,
+  "d0_news": "2020-04-24",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "HSY": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "HUBB": {
+  "has_news": true,
+  "n_sample": 391,
+  "d0_news": "2019-01-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HUM": {
+  "has_news": true,
+  "n_sample": 491,
+  "d0_news": "2022-11-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "HWM": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "INTC": {
+  "has_news": true,
+  "n_sample": 8682,
+  "d0_news": "2017-12-26",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "IBM": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "IDXX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IEX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ICE": {
+  "has_news": true,
+  "n_sample": 454,
+  "d0_news": "2021-12-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "IFF": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IBKR": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "INCY": {
+  "has_news": true,
+  "n_sample": 420,
+  "d0_news": "2020-08-04",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "IP": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "INTU": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IQV": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IT": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IR": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "INVH": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ISRG": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ITW": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IVZ": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JBHT": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "J": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JBL": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "IRM": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JCI": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JKHY": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JPM": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "JNJ": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "KDP": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "KEY": {
+  "has_news": true,
+  "n_sample": 481,
+  "d0_news": "2022-04-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KO": {
+  "has_news": true,
+  "n_sample": 7647,
+  "d0_news": "2009-10-14",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "KHC": {
+  "has_news": true,
+  "n_sample": 478,
+  "d0_news": "2023-01-26",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KEYS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "KKR": {
+  "has_news": true,
+  "n_sample": 607,
+  "d0_news": "2022-07-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KIM": {
+  "has_news": true,
+  "n_sample": 387,
+  "d0_news": "2019-08-29",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "KLAC": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KMB": {
+  "has_news": true,
+  "n_sample": 435,
+  "d0_news": "2022-06-22",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KMI": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "KR": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "L": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-03",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "LDOS": {
+  "has_news": true,
+  "n_sample": 433,
+  "d0_news": "2019-07-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LEN": {
+  "has_news": true,
+  "n_sample": 216,
+  "d0_news": "2023-08-14",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "LHX": {
+  "has_news": true,
+  "n_sample": 451,
+  "d0_news": "2021-08-03",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LIN": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LII": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LH": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-11-23",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LITE": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LLY": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LMT": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LNT": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-11-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LRCX": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LYB": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LULU": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "LUV": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LOW": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "LVS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "LYV": {
+  "has_news": true,
+  "n_sample": 7,
+  "d0_news": "2023-12-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MA": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MAS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MCD": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MCHP": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MAR": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MAA": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MCK": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2023-02-16",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "MCO": {
+  "has_news": true,
+  "n_sample": 472,
+  "d0_news": "2021-02-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MDT": {
+  "has_news": true,
+  "n_sample": 371,
+  "d0_news": "2023-04-25",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "MET": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MDLZ": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MGM": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2023-01-25",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MMM": {
+  "has_news": true,
+  "n_sample": 453,
+  "d0_news": "2023-06-05",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MLM": {
+  "has_news": true,
+  "n_sample": 392,
+  "d0_news": "2020-03-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MKC": {
+  "has_news": true,
+  "n_sample": 372,
+  "d0_news": "2022-05-10",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "MNST": {
+  "has_news": true,
+  "n_sample": 381,
+  "d0_news": "2022-02-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MO": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MSFT": {
+  "has_news": true,
+  "n_sample": 8737,
+  "d0_news": "2022-04-26",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "MPC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "MOS": {
+  "has_news": true,
+  "n_sample": 437,
+  "d0_news": "2022-04-20",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MPWR": {
+  "has_news": true,
+  "n_sample": 420,
+  "d0_news": "2020-04-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MRK": {
+  "has_news": true,
+  "n_sample": 438,
+  "d0_news": "2023-07-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MRVL": {
+  "has_news": true,
+  "n_sample": 428,
+  "d0_news": "2022-12-29",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "MS": {
+  "has_news": true,
+  "n_sample": 480,
+  "d0_news": "2023-07-20",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MSCI": {
+  "has_news": true,
+  "n_sample": 398,
+  "d0_news": "2021-01-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MSI": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2020-08-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MTD": {
+  "has_news": true,
+  "n_sample": 344,
+  "d0_news": "2011-11-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MTB": {
+  "has_news": true,
+  "n_sample": 423,
+  "d0_news": "2022-03-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "MU": {
+  "has_news": true,
+  "n_sample": 479,
+  "d0_news": "2023-06-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NCLH": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2022-06-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NDAQ": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2022-01-25",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "NDSN": {
+  "has_news": true,
+  "n_sample": 388,
+  "d0_news": "2018-05-21",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "NEE": {
+  "has_news": true,
+  "n_sample": 434,
+  "d0_news": "2023-07-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NEM": {
+  "has_news": true,
+  "n_sample": 515,
+  "d0_news": "2022-08-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NFLX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "NI": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "NKE": {
+  "has_news": true,
+  "n_sample": 504,
+  "d0_news": "2023-06-30",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NVDA": {
+  "has_news": true,
+  "n_sample": 8716,
+  "d0_news": "2021-08-17",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "NOC": {
+  "has_news": true,
+  "n_sample": 422,
+  "d0_news": "2023-03-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NRG": {
+  "has_news": true,
+  "n_sample": 528,
+  "d0_news": "2020-11-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NOW": {
+  "has_news": true,
+  "n_sample": 469,
+  "d0_news": "2023-04-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NTAP": {
+  "has_news": true,
+  "n_sample": 465,
+  "d0_news": "2020-08-27",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "NSC": {
+  "has_news": true,
+  "n_sample": 446,
+  "d0_news": "2022-06-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NUE": {
+  "has_news": true,
+  "n_sample": 446,
+  "d0_news": "2022-12-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "NTRS": {
+  "has_news": true,
+  "n_sample": 352,
+  "d0_news": "2019-01-23",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "NVR": {
+  "has_news": true,
+  "n_sample": 372,
+  "d0_news": "2021-05-21",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "NXPI": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ORCL": {
+  "has_news": true,
+  "n_sample": 5291,
+  "d0_news": "2009-11-22",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "NWS": {
+  "has_news": true,
+  "n_sample": 510,
+  "d0_news": "2009-11-25",
+  "d1_news": "2023-11-13",
+  "is_local": false
+ },
+ "NWSA": {
+  "has_news": true,
+  "n_sample": 498,
+  "d0_news": "2019-08-19",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "O": {
+  "has_news": true,
+  "n_sample": 424,
+  "d0_news": "2023-05-02",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "ODFL": {
+  "has_news": true,
+  "n_sample": 419,
+  "d0_news": "2021-09-22",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "OKE": {
+  "has_news": true,
+  "n_sample": 432,
+  "d0_news": "2022-03-01",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "OMC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ON": {
+  "has_news": true,
+  "n_sample": 448,
+  "d0_news": "2023-02-06",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "ORLY": {
+  "has_news": true,
+  "n_sample": 443,
+  "d0_news": "2021-06-18",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "OXY": {
+  "has_news": true,
+  "n_sample": 415,
+  "d0_news": "2023-06-23",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PANW": {
+  "has_news": true,
+  "n_sample": 382,
+  "d0_news": "2023-08-18",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PAYX": {
+  "has_news": true,
+  "n_sample": 421,
+  "d0_news": "2021-10-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "OTIS": {
+  "has_news": true,
+  "n_sample": 182,
+  "d0_news": "2022-05-26",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "PCAR": {
+  "has_news": true,
+  "n_sample": 449,
+  "d0_news": "2022-05-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PCG": {
+  "has_news": true,
+  "n_sample": 435,
+  "d0_news": "2022-05-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PEG": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2019-02-27",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "PEP": {
+  "has_news": true,
+  "n_sample": 399,
+  "d0_news": "2023-07-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PFE": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "PGR": {
+  "has_news": true,
+  "n_sample": 424,
+  "d0_news": "2022-11-04",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PFG": {
+  "has_news": true,
+  "n_sample": 400,
+  "d0_news": "2019-01-29",
+  "d1_news": "2023-12-05",
+  "is_local": false
+ },
+ "PG": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "PHM": {
+  "has_news": true,
+  "n_sample": 417,
+  "d0_news": "2023-04-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PH": {
+  "has_news": true,
+  "n_sample": 434,
+  "d0_news": "2020-06-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PKG": {
+  "has_news": true,
+  "n_sample": 426,
+  "d0_news": "2019-12-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PLD": {
+  "has_news": true,
+  "n_sample": 464,
+  "d0_news": "2022-09-26",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PM": {
+  "has_news": true,
+  "n_sample": 470,
+  "d0_news": "2023-01-10",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PNC": {
+  "has_news": true,
+  "n_sample": 476,
+  "d0_news": "2022-10-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PNW": {
+  "has_news": true,
+  "n_sample": 458,
+  "d0_news": "2018-11-08",
+  "d1_news": "2023-12-08",
+  "is_local": false
+ },
+ "PPG": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "PODD": {
+  "has_news": true,
+  "n_sample": 418,
+  "d0_news": "2022-01-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PNR": {
+  "has_news": true,
+  "n_sample": 358,
+  "d0_news": "2018-12-11",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "PPL": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "PSA": {
+  "has_news": true,
+  "n_sample": 498,
+  "d0_news": "2021-11-01",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "PRU": {
+  "has_news": true,
+  "n_sample": 430,
+  "d0_news": "2022-04-01",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "PSX": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2023-01-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PTC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "PWR": {
+  "has_news": true,
+  "n_sample": 415,
+  "d0_news": "2020-08-06",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "PYPL": {
+  "has_news": true,
+  "n_sample": 425,
+  "d0_news": "2023-08-21",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "QCOM": {
+  "has_news": true,
+  "n_sample": 467,
+  "d0_news": "2023-08-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "RF": {
+  "has_news": true,
+  "n_sample": 101,
+  "d0_news": "2023-07-18",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "REGN": {
+  "has_news": true,
+  "n_sample": 118,
+  "d0_news": "2023-08-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "REG": {
+  "has_news": true,
+  "n_sample": 110,
+  "d0_news": "2022-11-28",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "RCL": {
+  "has_news": true,
+  "n_sample": 89,
+  "d0_news": "2023-11-15",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "RJF": {
+  "has_news": true,
+  "n_sample": 105,
+  "d0_news": "2022-03-01",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "RL": {
+  "has_news": true,
+  "n_sample": 455,
+  "d0_news": "2022-02-09",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "RMD": {
+  "has_news": true,
+  "n_sample": 347,
+  "d0_news": "2020-01-30",
+  "d1_news": "2023-12-11",
+  "is_local": false
+ },
+ "ROK": {
+  "has_news": true,
+  "n_sample": 419,
+  "d0_news": "2019-11-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ROP": {
+  "has_news": true,
+  "n_sample": 420,
+  "d0_news": "2020-02-11",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "ROST": {
+  "has_news": true,
+  "n_sample": 408,
+  "d0_news": "2022-11-11",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "ROL": {
+  "has_news": true,
+  "n_sample": 392,
+  "d0_news": "2020-01-31",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "RSG": {
+  "has_news": true,
+  "n_sample": 501,
+  "d0_news": "2019-10-30",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "RTX": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SBAC": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SBUX": {
+  "has_news": true,
+  "n_sample": 487,
+  "d0_news": "2023-06-22",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SCHW": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SHW": {
+  "has_news": true,
+  "n_sample": 448,
+  "d0_news": "2021-11-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SLB": {
+  "has_news": true,
+  "n_sample": 466,
+  "d0_news": "2023-01-27",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "SJM": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SNA": {
+  "has_news": true,
+  "n_sample": 353,
+  "d0_news": "2019-02-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SMCI": {
+  "has_news": true,
+  "n_sample": 473,
+  "d0_news": "2022-12-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SNPS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SO": {
+  "has_news": true,
+  "n_sample": 502,
+  "d0_news": "2022-01-10",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "SPGI": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "STT": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "T": {
+  "has_news": true,
+  "n_sample": 9449,
+  "d0_news": "2016-06-20",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "STE": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "STZ": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SRE": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "SWK": {
+  "has_news": true,
+  "n_sample": 441,
+  "d0_news": "2021-11-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SWKS": {
+  "has_news": true,
+  "n_sample": 420,
+  "d0_news": "2021-09-20",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "SYK": {
+  "has_news": true,
+  "n_sample": 450,
+  "d0_news": "2021-08-02",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "SYY": {
+  "has_news": true,
+  "n_sample": 432,
+  "d0_news": "2022-04-28",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TFC": {
+  "has_news": true,
+  "n_sample": 493,
+  "d0_news": "2022-08-15",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TECH": {
+  "has_news": true,
+  "n_sample": 376,
+  "d0_news": "2010-04-20",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "TER": {
+  "has_news": true,
+  "n_sample": 425,
+  "d0_news": "2018-05-09",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "TEL": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "TGT": {
+  "has_news": true,
+  "n_sample": 448,
+  "d0_news": "2023-08-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TAP": {
+  "has_news": true,
+  "n_sample": 437,
+  "d0_news": "2021-07-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TJX": {
+  "has_news": true,
+  "n_sample": 405,
+  "d0_news": "2023-04-25",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TMO": {
+  "has_news": true,
+  "n_sample": 462,
+  "d0_news": "2023-01-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TMUS": {
+  "has_news": true,
+  "n_sample": 426,
+  "d0_news": "2023-04-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TPR": {
+  "has_news": true,
+  "n_sample": 479,
+  "d0_news": "2022-02-10",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "TSLA": {
+  "has_news": true,
+  "n_sample": 8712,
+  "d0_news": "2022-05-02",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "TPL": {
+  "has_news": true,
+  "n_sample": 246,
+  "d0_news": "2010-05-20",
+  "d1_news": "2023-12-05",
+  "is_local": false
+ },
+ "TRGP": {
+  "has_news": true,
+  "n_sample": 418,
+  "d0_news": "2019-01-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TRMB": {
+  "has_news": true,
+  "n_sample": 340,
+  "d0_news": "2018-11-01",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "TRV": {
+  "has_news": true,
+  "n_sample": 480,
+  "d0_news": "2022-05-27",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "TROW": {
+  "has_news": true,
+  "n_sample": 431,
+  "d0_news": "2021-08-17",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "TSCO": {
+  "has_news": true,
+  "n_sample": 473,
+  "d0_news": "2022-10-14",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TSN": {
+  "has_news": true,
+  "n_sample": 452,
+  "d0_news": "2022-06-09",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "TTD": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "TT": {
+  "has_news": true,
+  "n_sample": 402,
+  "d0_news": "2020-05-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TTWO": {
+  "has_news": true,
+  "n_sample": 452,
+  "d0_news": "2022-08-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "TYL": {
+  "has_news": true,
+  "n_sample": 368,
+  "d0_news": "2010-06-10",
+  "d1_news": "2023-12-07",
+  "is_local": false
+ },
+ "TXN": {
+  "has_news": true,
+  "n_sample": 488,
+  "d0_news": "2023-02-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "UBER": {
+  "has_news": true,
+  "n_sample": 470,
+  "d0_news": "2023-07-31",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "UAL": {
+  "has_news": true,
+  "n_sample": 485,
+  "d0_news": "2023-07-12",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "V": {
+  "has_news": true,
+  "n_sample": 6945,
+  "d0_news": "2010-04-15",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "UNP": {
+  "has_news": true,
+  "n_sample": 456,
+  "d0_news": "2022-12-13",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "UPS": {
+  "has_news": true,
+  "n_sample": 445,
+  "d0_news": "2023-05-08",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "UHS": {
+  "has_news": true,
+  "n_sample": 413,
+  "d0_news": "2018-08-07",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "ULTA": {
+  "has_news": true,
+  "n_sample": 436,
+  "d0_news": "2023-02-07",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "URI": {
+  "has_news": true,
+  "n_sample": 424,
+  "d0_news": "2022-08-24",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VEEV": {
+  "has_news": true,
+  "n_sample": 397,
+  "d0_news": "2022-05-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "USB": {
+  "has_news": true,
+  "n_sample": 483,
+  "d0_news": "2023-02-27",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VICI": {
+  "has_news": true,
+  "n_sample": 387,
+  "d0_news": "2022-05-24",
+  "d1_news": "2023-12-12",
+  "is_local": false
+ },
+ "VLO": {
+  "has_news": true,
+  "n_sample": 463,
+  "d0_news": "2023-02-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VMC": {
+  "has_news": true,
+  "n_sample": 422,
+  "d0_news": "2020-04-22",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "VRSN": {
+  "has_news": true,
+  "n_sample": 444,
+  "d0_news": "2014-08-09",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VRSK": {
+  "has_news": true,
+  "n_sample": 401,
+  "d0_news": "2019-02-19",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VRT": {
+  "has_news": true,
+  "n_sample": 331,
+  "d0_news": "2020-05-12",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "VRTX": {
+  "has_news": true,
+  "n_sample": 411,
+  "d0_news": "2023-05-03",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "VST": {
+  "has_news": true,
+  "n_sample": 429,
+  "d0_news": "2018-05-23",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "WMT": {
+  "has_news": true,
+  "n_sample": 8675,
+  "d0_news": "2018-12-01",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "VTR": {
+  "has_news": true,
+  "n_sample": 410,
+  "d0_news": "2019-02-06",
+  "d1_news": "2023-12-14",
+  "is_local": false
+ },
+ "WAB": {
+  "has_news": true,
+  "n_sample": 445,
+  "d0_news": "2019-02-16",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "WAT": {
+  "has_news": true,
+  "n_sample": 393,
+  "d0_news": "2016-10-19",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "WDC": {
+  "has_news": true,
+  "n_sample": 436,
+  "d0_news": "2022-01-02",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "XOM": {
+  "has_news": true,
+  "n_sample": 6757,
+  "d0_news": "2019-08-25",
+  "d1_news": "2023-12-16",
+  "is_local": true
+ },
+ "WDAY": {
+  "has_news": true,
+  "n_sample": 426,
+  "d0_news": "2022-12-29",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "WELL": {
+  "has_news": true,
+  "n_sample": 406,
+  "d0_news": "2021-02-17",
+  "d1_news": "2023-12-16",
+  "is_local": false
+ },
+ "WFC": {
+  "has_news": true,
+  "n_sample": 463,
+  "d0_news": "2023-07-17",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "YUM": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ZBH": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ZBRA": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "ZTS": {
+  "has_news": false,
+  "n_sample": 0,
+  "d0_news": null,
+  "d1_news": null,
+  "is_local": false
+ },
+ "WST": {
+  "has_news": true,
+  "n_sample": 402,
+  "d0_news": "2017-07-27",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "WSM": {
+  "has_news": true,
+  "n_sample": 497,
+  "d0_news": "2018-03-26",
+  "d1_news": "2022-07-28",
+  "is_local": false
+ },
+ "XEL": {
+  "has_news": true,
+  "n_sample": 455,
+  "d0_news": "2020-06-25",
+  "d1_news": "2023-12-15",
+  "is_local": false
+ },
+ "XYL": {
+  "has_news": true,
+  "n_sample": 376,
+  "d0_news": "2019-07-11",
+  "d1_news": "2023-12-13",
+  "is_local": false
+ },
+ "WY": {
+  "has_news": true,
+  "n_sample": 397,
+  "d0_news": "2019-10-25",
+  "d1_news": "2023-12-01",
+  "is_local": false
+ }
+}

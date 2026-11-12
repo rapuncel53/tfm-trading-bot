@@ -1,0 +1,267 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Essential Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm, top=2.2cm, bottom=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue!70!black,
+    urlcolor=blue!70!black
+}
+\usepackage{doi}
+\usepackage{cleveref}
+
+% --- UPC Official Blue ---
+\definecolor{upcblue}{RGB}{0, 114, 206}
+
+% --- Running Headers & Footers (Matching Template) ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize \textit{Report. TFM}}
+\fancyfoot[R]{\footnotesize \thepage}
+
+% Ensure first page also has the same footer
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+  \fancyfoot[L]{\footnotesize \textit{Report. TFM}}%
+  \fancyfoot[R]{\footnotesize \thepage}%
+}
+
+% Section Title Formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+\titlespacing*{\subsection}{0pt}{1.0em}{0.4em}
+
+\setstretch{1.15}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% =========================================================================
+% COVER / FIRST PAGE (MATCHING PROF. CRISTIAN RODRIGUEZ RIVERO'S FORMAT)
+% =========================================================================
+
+\begin{center}
+    % Official UPC Logo & School Name
+    \includegraphics[width=6.0cm]{upc_logo.png}\\[0.18cm]
+    {\fontsize{7.5}{9}\selectfont Escola Politècnica Superior d'Enginyeria de Manresa}
+
+    \vspace{1.8cm}
+
+    % Main Title
+    {\LARGE \textbf{Stock Return and Volatility Prediction}\\[0.25cm]
+    \textbf{Using Financial Newsflow and Company Accounting Data}\par}
+
+    \vspace{0.6cm}
+
+    % Subtitle
+    {\large \textbf{TFM --- MERIT Master}\par}
+
+    \vspace{0.8cm}
+
+    % Author & Supervisor
+    {\normalsize \textbf{Julia} \\[0.15cm]
+    \small Supervisor: Cristian Rodriguez Rivero, FHEA, UTQ/BKO\par}
+
+    \vspace{0.6cm}
+
+    % Date
+    {\normalsize November 2026\par}
+
+    \vspace{1.2cm}
+\end{center}
+
+% Table of Contents on the Cover Page (Matching Template)
+\begin{flushleft}
+    {\large \textbf{Índex}\par}
+\end{flushleft}
+\vspace{-0.4cm}
+
+{
+\hypersetup{linkcolor=black}
+\renewcommand{\contentsname}{} % Suppress default title since we have Índex
+\makeatletter
+\@starttoc{toc}
+\makeatother
+}
+
+\newpage
+
+% =========================================================================
+% SECTION 1: ABSTRACT
+% =========================================================================
+\section{Abstract}
+\label{sec:abstract}
+
+The function of an equity analyst is to synthesize unstructured market newsflow with fundamental accounting metrics to anticipate stock trajectory and evaluate risk. While classical quantitative finance relies on quarterly accounting ratios and recent financial NLP utilizes sentiment scores on breaking news, these streams have predominantly been modeled in isolation. This Master's Thesis investigates whether an open-weight Large Language Model (LLM) can be fine-tuned to reason holistically over corporate news, audited SEC EDGAR financial statements, and price trends like a human analyst. The predictive framework is evaluated across three time horizons (one day, one week, and one month) measuring both directional price trend and price volatility. Benchmarked against LightGBM on tabular accounting factors, FinBERT on newsflow, and existing multimodal models from quantitative literature, an ablation study isolates the individual and joint value of newsflow and balance-sheet fundamentals.
+
+\vspace{0.3cm}
+\noindent \textbf{Keywords:} Large Language Models (LLM), Financial Newsflow, SEC Accounting Statements, Multimodal Reasoning, Equity Return Forecasting, Volatility Prediction, S\&P 500.
+
+% =========================================================================
+% SECTION 2: INTRODUCTION & MOTIVATION
+% =========================================================================
+\section{Introduction and Problem Statement}
+\label{sec:introduction}
+
+In financial markets, decision-making relies on analyzing multiple streams of information:
+\begin{enumerate}[leftmargin=*, label=\bfseries(\alph*)]
+    \item \textbf{Textual Sentiment:} Short-term sentiment extracted from breaking news articles, press releases, and analyst updates.
+    \item \textbf{Fundamental Metrics:} Audited balance-sheet ratios, revenue growth, and solvency indicators reported quarterly by companies.
+    \item \textbf{Price Series:} Historical price action, momentum, and volatility patterns.
+\end{enumerate}
+
+Historically, quantitative models and machine learning pipelines have processed these sources independently. Models relying purely on news sentiment are prone to over-reacting to short-term noise, while models based exclusively on quarterly accounting statements react too slowly to emerging corporate events. 
+
+A professional human equity analyst does not analyze these streams in a vacuum. Instead, an analyst interprets fresh news through the lens of a company's underlying financial health and recent market momentum. 
+
+\textbf{Core Motivation:} Recent advances in Large Language Models (LLMs) provide reasoning capabilities that can be harnessed beyond simple text summarization. The central vision of this thesis is to train an LLM to \textbf{reason like an equity analyst} over the complete financial profile of a firm, synthesizing textual news, audited balance-sheet metrics, and market trends to forecast where the stock is headed and why.
+
+% =========================================================================
+% SECTION 3: RESEARCH QUESTIONS
+% =========================================================================
+\section{Objectives and Research Questions (RQ Tree)}
+\label{sec:rq}
+
+The primary objective is to develop and evaluate a multimodal LLM framework capable of reasoning over company data to forecast stock price direction and volatility.
+
+In accordance with EPSEM-UPC Master's Thesis guidelines, the research is structured into a hierarchical Research Question tree:
+
+\begin{itemize}[leftmargin=*, label=$\mathbf{\blacktriangleright}$]
+    \item \textbf{Root RQ:} \textit{To what extent can a fine-tuned Large Language Model learn to reason over heterogeneous corporate data (newsflow and accounting metrics) to reliably forecast stock price direction and price volatility?}
+    
+    \begin{itemize}[leftmargin=*, label=$\mathbf{\triangleright}$]
+        \item \textbf{SRQ 1: Reasoning Ability and Multimodal Value}
+        \begin{itemize}[label=$\circ$]
+            \item \textbf{SRQ 1.1:} Can an LLM effectively integrate qualitative news context with quantitative balance-sheet ratios to understand why and how stock prices adjust?
+            \item \textbf{SRQ 1.2:} Does combining text and accounting data yield superior predictive performance compared to using either data source independently?
+            \item \textbf{SRQ 1.3:} What information does the multimodal model prioritize when news sentiment diverges from underlying accounting fundamentals?
+        \end{itemize}
+
+        \item \textbf{SRQ 2: Prediction Across Time Horizons and Target Types}
+        \begin{itemize}[label=$\circ$]
+            \item \textbf{SRQ 2.1:} How does forecasting performance vary across short-term and medium-term horizons: one day ($1\text{d}$), one week ($5\text{d}$), and one month ($20\text{d}$)?
+            \item \textbf{SRQ 2.2:} With what accuracy can the model determine the directional trend of the stock (positive vs. negative return)?
+            \item \textbf{SRQ 2.3:} How effectively does the model estimate the magnitude of price movement (volatility and variation) over weekly and monthly windows?
+        \end{itemize}
+
+        \item \textbf{SRQ 3: Benchmarking and Modality Ablation}
+        \begin{itemize}[label=$\circ$]
+            \item \textbf{SRQ 3.1:} How does the proposed multimodal LLM perform compared to specialized single-modality baselines (FinBERT for news and LightGBM for numerical metrics)?
+            \item \textbf{SRQ 3.2:} How does the architecture compare against existing multimodal benchmark models established in quantitative finance literature?
+            \item \textbf{SRQ 3.3:} What is the isolated contribution of each component (news-alone vs. accounting-alone vs. multimodal fusion) across market regimes?
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+% =========================================================================
+% SECTION 4: DATA & CORPORATE UNIVERSE
+% =========================================================================
+\section{Data and Corporate Universe}
+\label{sec:data}
+
+The study focuses on the **S\&P 500 universe**, selecting firms with comprehensive historical data coverage across the following sources:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Financial Newsflow (FNSPID and Benzinga):} Full-text news articles and analyst updates from the FNSPID benchmark dataset \citep{dong2024fnspid} and Benzinga news database.
+    \item \textbf{Official Accounting Statements (SEC EDGAR):} Official quarterly (Form 10-Q) and annual (Form 10-K) corporate filings from the U.S. Securities and Exchange Commission, providing balance-sheet, income, and cash-flow indicators.
+    \item \textbf{Stock Price Time Series (Yahoo Finance):} Daily split- and dividend-adjusted OHLCV price histories, used to compute forward returns and realized volatility.
+\end{itemize}
+
+Firms are prioritized based on data continuity and news density, ensuring robust training without artificial gaps.
+
+% =========================================================================
+% SECTION 5: METHODOLOGY & BENCHMARKS
+% =========================================================================
+\section{Methodology and Experimental Design}
+\label{sec:methodology}
+
+\subsection{Model Architecture}
+The proposed pipeline comprises:
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{LLM Backbone:} Parameter-efficient fine-tuning (QLoRA \citep{dettmers2024qlora}) applied to an open-weight model, initiating experiments with \textit{Qwen 3.5 (9B parameters)} \citep{qwen2024team}, with provisions to scale to larger architectures if compute allows.
+    \item \textbf{Multimodal Integration Head:} A neural network module designed to project and fuse accounting metrics with the internal hidden representations extracted from the LLM.
+\end{enumerate}
+
+\subsection{Competitive Benchmarks}
+To rigorously assess the model, it will be evaluated against:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Numerical Baseline:} A gradient-boosted decision tree model (\textit{LightGBM}) trained on standardized financial ratios and momentum factors.
+    \item \textbf{Textual NLP Baseline:} \textit{FinBERT} \citep{araci2019finbert}, representing the established domain-specific pre-LLM standard for news sentiment.
+    \item \textbf{State-of-the-Art Multimodal Benchmarks:} A survey of top-tier multimodal models from recent literature (e.g., multimodal Transformers and fusion architectures) will be incorporated to ensure a fair, rigorous comparison.
+\end{itemize}
+
+\subsection{Ablation Study Protocol}
+To isolate where predictive gains originate, the experimental setup includes a three-way ablation:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Experiment 1 (News-Alone):} Training strictly on textual news context.
+    \item \textbf{Experiment 2 (Accounting-Alone):} Training strictly on SEC financial metrics.
+    \item \textbf{Experiment 3 (Multimodal Fusion):} Training on the joint combination of news, accounting data, and price context.
+\end{itemize}
+
+% =========================================================================
+% SECTION 6: EVALUATION HORIZONS
+% =========================================================================
+\section{Evaluation Horizons and Targets}
+\label{sec:evaluation}
+
+Model performance is evaluated across two complementary dimensions over three time horizons:
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Evaluation Dimensions across Time Horizons}
+\label{tab:horizons}
+\begin{tabularx}{\textwidth}{lll}
+\toprule
+\textbf{Horizon} & \textbf{Target 1: Directional Prediction} & \textbf{Target 2: Price Variation / Volatility} \\
+\midrule
+\textbf{1 Day} ($h=1\text{d}$)   & Immediate post-news price direction & Intraday/daily variation \\
+\textbf{1 Week} ($h=5\text{d}$)  & Cumulative weekly trend (up/down)   & Weekly realized volatility \\
+\textbf{1 Month} ($h=20\text{d}$)& Post-earnings drift (PEAD direction)& Monthly price range and variation \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% =========================================================================
+% SECTION 7: WORK PLAN & SCHEDULE
+% =========================================================================
+\section{Work Plan and Schedule}
+\label{sec:schedule}
+
+The thesis project is planned across the following milestones:
+\begin{itemize}[leftmargin=*, noitemsep]
+    \item \textbf{Phase 1 (Months 1--2):} Dataset alignment, universe filtering (S\&P 500), and literature survey of advanced multimodal benchmarks.
+    \item \textbf{Phase 2 (Months 2--3):} Baseline implementation (LightGBM and FinBERT) and Qwen 3.5 fine-tuning experiments.
+    \item \textbf{Phase 3 (Months 3--4):} Multimodal fusion architecture training, multi-horizon evaluation (1d, 1w, 1m), and ablation studies.
+    \item \textbf{Phase 4 (Months 4--5):} Comprehensive results analysis, thesis writing (following EPSEM-UPC guidelines), and defense slide preparation.
+\end{itemize}
+
+% =========================================================================
+% REFERENCES
+% =========================================================================
+\newpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

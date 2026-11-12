@@ -1,0 +1,90 @@
+{
+  "dataset_name": "FNSPID (Financial News and Stock Price Integration Dataset)",
+  "source": "Zihan1004/FNSPID (Hugging Face) / NASDAQ Articles",
+  "total_sp500_companies": 199,
+  "companies_with_news": 199,
+  "total_sp500_news": 453939,
+  "mean_news_per_company": 2281.1,
+  "median_news_per_company": 1588.0,
+  "max_news_company": {
+    "ticker": "GE",
+    "name": "GENERAL ELECTRIC CO",
+    "news_count": 9921,
+    "d0": "2012-04-20",
+    "d1": "2023-12-16"
+  },
+  "profiles": {
+    "Histórico Ultra-Largo (2009-2012 -> 2023, 11-14 años)": 137,
+    "Histórico Largo (2013-2019 -> 2023, 5-10 años)": 33,
+    "Ventana Reciente (2022-2023, 1-2 años)": 24,
+    "Ventana Intermedia (2020-2021 -> 2023, 3-4 años)": 5
+  },
+  "sectors": [
+    {
+      "sector": "Information Technology",
+      "empresas": 35,
+      "total_noticias": 102366,
+      "media_noticias": 2924.7428571428572
+    },
+    {
+      "sector": "Financials",
+      "empresas": 29,
+      "total_noticias": 68525,
+      "media_noticias": 2362.9310344827586
+    },
+    {
+      "sector": "Industrials",
+      "empresas": 32,
+      "total_noticias": 63893,
+      "media_noticias": 1996.65625
+    },
+    {
+      "sector": "Health Care",
+      "empresas": 24,
+      "total_noticias": 55802,
+      "media_noticias": 2325.0833333333335
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "empresas": 22,
+      "total_noticias": 54834,
+      "media_noticias": 2492.4545454545455
+    },
+    {
+      "sector": "Energy",
+      "empresas": 10,
+      "total_noticias": 33862,
+      "media_noticias": 3386.2
+    },
+    {
+      "sector": "Consumer Staples",
+      "empresas": 7,
+      "total_noticias": 22776,
+      "media_noticias": 3253.714285714286
+    },
+    {
+      "sector": "Real Estate",
+      "empresas": 17,
+      "total_noticias": 22282,
+      "media_noticias": 1310.7058823529412
+    },
+    {
+      "sector": "Communication Services",
+      "empresas": 9,
+      "total_noticias": 16063,
+      "media_noticias": 1784.7777777777778
+    },
+    {
+      "sector": "Utilities",
+      "empresas": 9,
+      "total_noticias": 10464,
+      "media_noticias": 1162.6666666666667
+    },
+    {
+      "sector": "Materials",
+      "empresas": 5,
+      "total_noticias": 3072,
+      "media_noticias": 614.4
+    }
+  ]
+}

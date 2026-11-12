@@ -1,0 +1,86 @@
+{
+  "fnspid": {
+    "total_news_analyzed": 180576,
+    "exact_duplicates": 2802,
+    "exact_duplicates_pct": 1.552,
+    "temporal_duplicates": 16307,
+    "temporal_duplicates_pct": 9.031,
+    "multi_ticker_titles_count": 20584
+  },
+  "benzinga": {
+    "total_news_analyzed": 1407328,
+    "exact_duplicates": 11864,
+    "exact_duplicates_pct": 0.843,
+    "temporal_duplicates": 67280,
+    "temporal_duplicates_pct": 4.781,
+    "multi_ticker_broadcast_titles": 8660,
+    "top_repeated_headlines": [
+      {
+        "headline": "benzinga's top upgrades",
+        "tickers_count": 50,
+        "total_occurrences": 5449
+      },
+      {
+        "headline": "benzinga's top downgrades",
+        "tickers_count": 50,
+        "total_occurrences": 5372
+      },
+      {
+        "headline": "benzinga's top initiations",
+        "tickers_count": 50,
+        "total_occurrences": 4241
+      },
+      {
+        "headline": "stocks that hit 52-week lows on thursday",
+        "tickers_count": 50,
+        "total_occurrences": 3962
+      },
+      {
+        "headline": "morning market losers",
+        "tickers_count": 50,
+        "total_occurrences": 3440
+      },
+      {
+        "headline": "stocks hitting 52-week highs",
+        "tickers_count": 50,
+        "total_occurrences": 3393
+      },
+      {
+        "headline": "stocks hitting 52-week lows",
+        "tickers_count": 50,
+        "total_occurrences": 3064
+      },
+      {
+        "headline": "benzinga's volume movers",
+        "tickers_count": 50,
+        "total_occurrences": 2796
+      },
+      {
+        "headline": "stocks that hit 52-week highs on friday",
+        "tickers_count": 50,
+        "total_occurrences": 2532
+      },
+      {
+        "headline": "a peek into the market before the trading starts",
+        "tickers_count": 50,
+        "total_occurrences": 2364
+      }
+    ]
+  },
+  "cross_dataset": {
+    "fnspid_unique_headlines": 135929,
+    "benzinga_unique_headlines": 844576,
+    "shared_exact_headlines": 638,
+    "overlap_pct_of_fnspid": 0.47,
+    "sample_shared_headlines": [
+      "a look ahead: this week's etfs to watch",
+      "benzinga mid-morning market update",
+      "benzinga mid-day market update",
+      "zacks #1 rank additions for wednesday - tale of the tape",
+      "zacks #1 rank additions for thursday - tale of the tape",
+      "benzinga mid-afternoon market update",
+      "zacks #5 rank additions for thursday - tale of the tape",
+      "zacks #1 rank additions for tuesday - tale of the tape"
+    ]
+  }
+}

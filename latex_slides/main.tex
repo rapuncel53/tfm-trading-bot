@@ -1,0 +1,278 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% --- Paquetes ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% --- Colores ---
+\definecolor{UPCBlue}{HTML}{0072CE}      % Azul Principal
+\definecolor{UPCNavy}{HTML}{003366}      % Azul Marino Oscuro
+\definecolor{TextDark}{HTML}{263238}     % Gris Oscuro
+\definecolor{BgCard}{HTML}{F4F7F9}       % Fondo de tarjetas
+\definecolor{GreenTier}{HTML}{2E7D32}    % Verde Tier 1
+\definecolor{OrangeTier}{HTML}{E65100}   % Naranja Tier 2
+\definecolor{GrayTier}{HTML}{546E7A}     % Gris Tier 3
+
+% --- Configuración Beamer ---
+\usetheme{default}
+\setbeamercolor{normal text}{fg=TextDark,bg=white}
+\setbeamercolor{structure}{fg=UPCBlue}
+\setbeamercolor{frametitle}{fg=UPCNavy,bg=white}
+\setbeamercolor{block title}{fg=white,bg=UPCBlue}
+\setbeamercolor{block body}{fg=TextDark,bg=BgCard}
+\setbeamertemplate{navigation symbols}{}
+
+% Cabecera simple
+\setbeamertemplate{frametitle}{
+    \vspace{0.4cm}
+    \hspace{0.2cm}\textbf{\color{UPCNavy}\insertframetitle} \par
+    \vspace{0.1cm}
+    \hspace{0.2cm}\textcolor{UPCBlue}{\rule{0.94\paperwidth}{1.2pt}}
+}
+
+% Pie de página simple: solo número de diapositiva
+\setbeamertemplate{footline}{
+    \hfill\color{gray}\footnotesize\insertframenumber{} / \inserttotalframenumber\hspace*{0.8cm}
+    \vskip0.3cm
+}
+
+\begin{document}
+
+% ==========================================================
+% SLIDE 1: PORTADA SIMPLE (Solo Título y Nombre)
+% ==========================================================
+\begin{frame}[plain]
+    \vspace{2.2cm}
+    \begin{center}
+        {\LARGE \color{UPCNavy} \textbf{Predicción de Retornos Bursátiles Mediante Flujo de Noticias y Datos Contables}} \par
+        \vspace{0.8cm}
+        \textcolor{UPCBlue}{\rule{0.4\paperwidth}{1.5pt}} \par
+        \vspace{0.8cm}
+        {\Large \textbf{Julia}} \par
+        \vspace{0.3cm}
+        {\color{gray}\normalsize Trabajo de Fin de Máster}
+    \end{center}
+\end{frame}
+
+% ==========================================================
+% SLIDE 2: LOS TRES INPUTS DEL SISTEMA
+% ==========================================================
+\begin{frame}{Los Tres Inputs del Sistema}
+    El modelo combina tres fuentes de información independientes para cada empresa:
+    \vspace{0.3cm}
+    
+    \begin{columns}[T]
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{1. Noticias (Newsflow)}}
+                \begin{itemize}
+                    \item \textbf{Benzinga:} Alertas rápidas de analistas de Wall Street.
+                    \item \textbf{FNSPID:} Noticias corporativas y del NASDAQ.
+                    \item Información no estructurada (texto).
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{2. Balances SEC}}
+                \begin{itemize}
+                    \item Informes oficiales auditados: \textbf{10-Q} (trimestre) y \textbf{10-K} (anual).
+                    \item Ingresos, márgenes, EPS diluido y ROE.
+                    \item Información financiera periódica.
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{3. Precios Bursátiles}}
+                \begin{itemize}
+                    \item Cotizaciones diarias de mercado (Yahoo / CRSP).
+                    \item Precios de cierre, volumen negociado y volatilidad a 20 días.
+                    \item Momentum a 1d, 3d y 5 días.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ==========================================================
+% SLIDE 3: QUÉ SON LOS DATASETS DE NOTICIAS Y QUÉ CONTIENEN
+% ==========================================================
+\begin{frame}{¿Qué son los Datasets de Noticias y qué Contienen?}
+    \begin{itemize}
+        \item Son \textbf{canales de información en serie temporal}: cada noticia está etiquetada con su fecha exacta, el ticker de la acción y el titular de prensa.
+        \item Se alinean directamente con cada sesión bursátil.
+    \end{itemize}
+    
+    \vspace{0.2cm}
+    \textbf{Tipos de Noticias Reales en el Dataset (Ejemplos Literales):}
+    \vspace{0.15cm}
+    
+    \begin{enumerate}
+        \item \textbf{Sorpresas de Resultados Trimestrales (EPS):}
+        \begin{itemize}
+            \item \texttt{"Arch Capital Group Reports Q1 Adj. \$1.42 vs \$1.33 Est."}
+            \item El beneficio supera las expectativas de los analistas (impulso alcista).
+        \end{itemize}
+        \vspace{0.1cm}
+        \item \textbf{Alertas de Analistas de Wall Street (Price Targets):}
+        \begin{itemize}
+            \item \texttt{"Goldman Sachs Raises PT to \$51.00 [SEP] UBS Raises PT to \$54.00"}
+            \item Dos bancos de inversión suben el precio objetivo el mismo día.
+        \end{itemize}
+        \vspace{0.1cm}
+        \item \textbf{Notas de Prensa Corporativas:}
+        \begin{itemize}
+            \item \texttt{"Arch Capital Group Ltd. Reports 2010 Fourth Quarter Results"}
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+% ==========================================================
+% SLIDE 4: FUENTES DE NOTICIAS: BENZINGA Y FNSPID
+% ==========================================================
+\begin{frame}{Fuentes de Noticias: Benzinga y FNSPID}
+    El corpus de texto proviene de dos proveedores complementarios:
+    \vspace{0.3cm}
+    
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \begin{block}{\textbf{Benzinga News Feed}}
+                \begin{itemize}
+                    \item \textbf{Periodo:} Julio 2009 a Junio 2020.
+                    \item \textbf{Enfoque:} Alertas inmediatas de mercado, cambios de recomendación (\textit{Buy/Hold/Sell}) y precios objetivo de Wall Street.
+                    \item \textbf{Cobertura:} 162 empresas cotizadas con noticias desde 2011.
+                    \item \textbf{Volumen:} Base fundamental para la fase de entrenamiento y validación.
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.48\textwidth}
+            \begin{block}{\textbf{FNSPID (NASDAQ Financial News)}}
+                \begin{itemize}
+                    \item \textbf{Periodo:} Octubre 2009 a Diciembre 2023.
+                    \item \textbf{Enfoque:} Artículos completos, notas de prensa corporativas y noticias sectoriales.
+                    \item \textbf{Cobertura:} Universo concentrado de empresas tecnológicas y del NASDAQ.
+                    \item \textbf{Volumen:} Esencial para el conjunto de test fuera de muestra (2021 a 2023).
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ==========================================================
+% SLIDE 5: CLASIFICACIÓN DE ACCIONES POR CALIDAD DE COBERTURA
+% ==========================================================
+\begin{frame}{Clasificación de Acciones por Cobertura y Fechas}
+    Clasificamos las empresas según la continuidad de fechas y el volumen de noticias:
+    \vspace{0.25cm}
+    
+    \begin{columns}[T]
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{\color{GreenTier} Tier 1: Las Mejores}}
+                \textbf{Cobertura Total (36 acc.)}
+                \begin{itemize}
+                    \item Noticias continuas de \textbf{2011 a 2023} en Benzinga y FNSPID.
+                    \item \textbf{1.000 a 2.250 noticias} por empresa.
+                    \item \textit{Ejemplos:} \textbf{NVDA}, ORCL, CAT, KO, V, COST, CRM, QCOM, ADBE, AMD, EBAY.
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{\color{OrangeTier} Tier 2: Intermedias}}
+                \textbf{Cobertura Parcial (127 acc.)}
+                \begin{itemize}
+                    \item Gran volumen pero en épocas concretas.
+                    \item \textbf{Históricas Benzinga:} MRK (1.319), PFE, JNJ (2011--2020).
+                    \item \textbf{Recientes Big Tech:} GOOG (970), AAPL (448), AMZN (220) (2019--2023).
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{0.31\textwidth}
+            \begin{block}{\textbf{\color{GrayTier} Tier 3: Bajas}}
+                \textbf{Cobertura Mínima (37 acc.)}
+                \begin{itemize}
+                    \item Noticias en un solo periodo o nulas.
+                    \item \textbf{Solo en Test:} MSFT (414 noticias en FNSPID).
+                    \item \textbf{Empresas Silenciosas (28):} Eléctricas o infraestructuras con balances SEC pero 0 noticias.
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ==========================================================
+% SLIDE 6: CASOS CONCRETOS DE COMPAÑÍAS
+% ==========================================================
+\begin{frame}{Casos Concretos de Compañías}
+    \begin{table}[]
+        \centering \small
+        \begin{tabular}{@{}llcccl@{}}
+        \toprule
+        \textbf{Ticker} & \textbf{Empresa} & \textbf{Train (11--18)} & \textbf{Val (19--20)} & \textbf{Test (21--23)} & \textbf{Diagnóstico de Cobertura} \\ \midrule
+        \textbf{NVDA}   & NVIDIA Corp.     & \textbf{852 días}       & \textbf{273 días}     & \textbf{585 días}      & \textbf{Tier 1 (Excelente, 1.710 días)} \\
+        \textbf{ORCL}   & Oracle Corp.     & 1.529 días              & 241 días              & 480 días               & Tier 1 (Líder total, 2.250 días) \\
+        \textbf{GOOG}   & Alphabet Inc.    & 25 días                 & 358 días              & 587 días               & Tier 2 (Masiva en Val y Test) \\
+        \textbf{AAPL}   & Apple Inc.       & 0 días                  & 61 días               & 387 días               & Tier 2 (Entrada tardía en Benzinga) \\
+        \textbf{MSFT}   & Microsoft Corp.  & 0 días                  & 0 días                & 414 días               & Tier 3 (Exclusiva de FNSPID en Test) \\ \bottomrule
+        \end{tabular}
+    \end{table}
+    
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item \textbf{NVIDIA (`NVDA`):} Ejemplo perfecto de acción Tier 1. Está presente de principio a fin.
+        \item \textbf{Google (`GOOG`):} En Train tenía pocas noticias por estar bajo el ticker histórico `GOOGL`. A partir de 2019 tiene cobertura casi diaria.
+        \item \textbf{Microsoft (`MSFT`):} No estaba en el paquete Benzinga, pero entró con 414 noticias en FNSPID (Test).
+    \end{itemize}
+\end{frame}
+
+% ==========================================================
+% SLIDE 7: PARTICIÓN TEMPORAL CON LAS MEJORES ACCIONES
+% ==========================================================
+\begin{frame}{Partición Temporal: Train, Val, Embargo y Test}
+    Tomando las acciones con mejor cobertura, los datos se estructuran de forma temporal:
+    \vspace{0.3cm}
+    
+    \begin{table}[]
+        \centering \small
+        \begin{tabular}{@{}llcl@{}}
+        \toprule
+        \textbf{Split} & \textbf{Periodo} & \textbf{Días con Noticias} & \textbf{Función y Régimen de Mercado} \\ \midrule
+        \textbf{Train}      & 2011 a 2018         & 51.678 registros           & Entrenamiento del LLM (expansión, tipos 0\%) \\
+        \textbf{Val}        & 2019 a Jun 2020     & 22.035 registros           & Calibración y test de estrés (crash COVID-19) \\
+        \textbf{Embargo}    & Jun 2020 a Ago 2021 & ---                        & \textbf{Cuarentena: Se descartan noticias} \\
+        \textbf{Test Ciego} & Ago 2021 a Dic 2023 & 20.519 registros           & Evaluación out-of-sample (subida tipos FED) \\ \bottomrule
+        \end{tabular}
+    \end{table}
+    
+    \vspace{0.2cm}
+    \begin{block}{\textbf{¿Por qué existe el Embargo / Cuarentena (14 meses)?}}
+        \begin{itemize}
+            \item \textbf{Fin de Benzinga:} El dataset de Benzinga termina exactamente el 10 de junio de 2020.
+            \item \textbf{Aislamiento macroeconómico:} Se eliminan los meses de estímulos monetarios distorsionados y el desfase de empalme con el dataset FNSPID.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+% ==========================================================
+% SLIDE 8: RESUMEN FINAL
+% ==========================================================
+\begin{frame}{Resumen Final de los Datos}
+    \begin{enumerate}
+        \item \textbf{Corpus Rico y Realista:} 94.232 días de noticias reales de resultados (EPS) y revisiones de analistas de Wall Street.
+        \vspace{0.2cm}
+        \item \textbf{Núcleo Tier 1 Sólido:} Contamos con 36 empresas de primer nivel (como NVIDIA, AMD, Oracle, Visa, Costco) con datos ininterrumpidos de 2011 a 2023.
+        \vspace{0.2cm}
+        \item \textbf{Partición Temporal Estricta:} La separación Train $\to$ Val $\to$ Embargo $\to$ Test garantiza que el modelo nunca aprenda con información del futuro y se evalúe en un régimen económico real.
+        \vspace{0.2cm}
+        \item \textbf{Respaldo Contable en Días Silenciosos:} Los balances de la SEC garantizan que el modelo siempre tenga información de la empresa, incluso en los días donde no se publican noticias.
+    \end{enumerate}
+\end{frame}
+
+\end{document}
